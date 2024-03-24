@@ -1,0 +1,97 @@
+/* css/ulkoasu.css */
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #banner {
+    background-image: url('../images/banner.png') ;
+    background-size: 100% auto;
+    min-height: 273px;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  #content {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 10em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(247,147,30);
+    border-radius: 5px;
+  }
+  
+  nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    line-height: 150%;
+    font-size: 1em;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222f3e;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer ul {
+    color: #fff;
+    width: 150px;
+    margin: 20px auto;
+  }
+  
+  footer div {
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  i {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #banner {min-height: 150px;}
+  }
+  
+  @media screen and (max-width: 600px) {
+    #banner {min-height: 100px;}
+  }
+  
+  @media screen and (max-width: 375px) {
+    #logo img {width: 300px;}
+    #banner {min-height: 60px;}
+  }
